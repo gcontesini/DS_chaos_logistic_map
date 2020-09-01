@@ -21,7 +21,6 @@ do for [i=1:400] {
 # set xrange [0:400]
 # set yrange [0:1]
 
-
 # data_points='gnu_data_c.txt'
 # plot data_points u 1:2
 
