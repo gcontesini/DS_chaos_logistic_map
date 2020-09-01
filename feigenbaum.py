@@ -39,8 +39,8 @@ def feigenbaum_diagram( r_float_, init_cond_float_, N_steps_int_, L_tail_int_ ):
 
     for i_int in np.arange( 1, N_steps_int_ ):
 
-        # x_ary[ i_int ] = exponential_map( x_ary[i_int-1], r_float_ )
-        x_ary[ i_int ] = logistic_map( x_ary[i_int-1], r_float_ )
+        x_ary[ i_int ] = exponential_map( x_ary[i_int-1], r_float_ )
+        # x_ary[ i_int ] = logistic_map( x_ary[i_int-1], r_float_ )
 
     return x_ary[-L_tail_int_:-1]
 

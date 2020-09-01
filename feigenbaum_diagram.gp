@@ -4,7 +4,7 @@ reset
 # pause -1
 
 set terminal png
-set output "feigenbaum_diagram.png"
+set output "feigenbaum_diagram_exp.png"
 
 set xrange[1:4]
 
